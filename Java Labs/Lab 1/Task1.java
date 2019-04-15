@@ -1,18 +1,23 @@
 class Task1{
 	public static void main(String args[]){
 		String name;
-		int age;
+		byte age;
+		short marks;
 		float per;
-		boolean pass;
+		String status;
 		char grade;
-   
+        double percl;
+        int year;
+
 		name = "Sarwan Dahri";
 		age = 18;
-		per = 75;
-        pass  = true;
+		marks = 550;
+		per = 75.67f;
+        status = "Pass";
         grade = 'A';
-   
-        System.out.println(" Name: "+name+"\n Age: "+age+"\n Percentage: "+per+"\n Status: "+pass+"\n Grade "+grade);
+        percl = 94.5;
+        year = 2018;
+        System.out.println(" Name: "+name+"\n Age: "+age+"\n Marks: "+marks+"\n Percentage: "+per+"\n Status: "+status+"\n Grade: "+grade+"\n Percentage of Class Attended: "+percl+"\n Year: "+year);
         
 
 
